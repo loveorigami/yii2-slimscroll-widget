@@ -81,7 +81,7 @@ class SlimScroll extends \yii\base\Widget
      * @see \yii\helpers\BaseHtml::endTag()
      * @return string
      */
-    public static function endTag()
+    public static function end()
     {
         return Html::endTag(self::$tag);
     }
